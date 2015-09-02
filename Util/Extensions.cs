@@ -5,7 +5,7 @@ using System.Linq;
 namespace Util
 {
     /// <summary>
-    /// 类型转换扩展
+    /// 类型转换扩展 - Scott
     /// </summary>
     public static partial class Extensions
     {
