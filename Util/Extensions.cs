@@ -15,7 +15,7 @@ namespace Util
         /// <param name="data">数据</param>
         public static int ToInt(this string data)
         {
-            return Conv.ToInt(data);
+            return Conv.ToInt(data);//gege
         }
 
         /// <summary>
