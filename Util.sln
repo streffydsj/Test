@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util.Test", "Util.Test\Util.Test.csproj", "{A234F203-836B-4C74-BB55-78C10D660153}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util.Domains", "Util.Domains\Util.Domains.csproj", "{23608877-8B4D-4C24-9216-7150E678CE53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Core", "01-Core", "{47452AEB-DB2E-4618-9FF8-258D893569E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Domains", "02-Domains", "{27D06F8F-D711-449A-80F2-45DF00252740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util.Domains.Tests", "Util.Domains.Tests\Util.Domains.Tests.csproj", "{E015E2FE-F600-4AFA-A7D8-0BA1AE27640A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +29,22 @@ Global
 		{A234F203-836B-4C74-BB55-78C10D660153}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A234F203-836B-4C74-BB55-78C10D660153}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A234F203-836B-4C74-BB55-78C10D660153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23608877-8B4D-4C24-9216-7150E678CE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23608877-8B4D-4C24-9216-7150E678CE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23608877-8B4D-4C24-9216-7150E678CE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23608877-8B4D-4C24-9216-7150E678CE53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E015E2FE-F600-4AFA-A7D8-0BA1AE27640A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E015E2FE-F600-4AFA-A7D8-0BA1AE27640A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E015E2FE-F600-4AFA-A7D8-0BA1AE27640A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E015E2FE-F600-4AFA-A7D8-0BA1AE27640A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B075A824-C267-4876-95FF-294C4357E079} = {47452AEB-DB2E-4618-9FF8-258D893569E8}
+		{A234F203-836B-4C74-BB55-78C10D660153} = {47452AEB-DB2E-4618-9FF8-258D893569E8}
+		{23608877-8B4D-4C24-9216-7150E678CE53} = {27D06F8F-D711-449A-80F2-45DF00252740}
+		{E015E2FE-F600-4AFA-A7D8-0BA1AE27640A} = {27D06F8F-D711-449A-80F2-45DF00252740}
 	EndGlobalSection
 EndGlobal
